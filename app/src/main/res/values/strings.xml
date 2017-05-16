@@ -1,0 +1,56 @@
+<resources>
+    <!--AndroidManifest.xml-->
+    <string name="app_name">LyfeCycle</string>
+    <string name="label_actividad2">Actividad 2</string>
+
+    <!--MainActivity.java - activity_main.xml-->
+    <string name="label_info_actividad1">
+        Una actividad  al igual que los seres vivos  tienen un ciclo de vida ya que son semenjantes:\n\n
+        Nacen\n
+        Se alimentan\n
+        Crecen\n
+        se relacionan\n
+        se reproducen y mueren.\n\n
+        Los estados por los cuales puede transcurrir la actividad son:\n\n
+            Creación => onCreate()\n
+            Ejecución => onResume()\n
+            Reanudación => onRestart()\n
+            Pausa => onPause()\n
+            Parada => Onstop()\n
+            Destrucción => onDestroy()\n\n
+        Presiona el botón y observa lo que sucede
+    </string>
+    <string name="label_btn_iniciar_actividad2">Iniciar Actividad 2</string>
+
+    <!--Actividad2.java - activity_actividad2.xml-->
+    <string name="label_info_actividad2">
+       Como habras notado que al presionar el botón en la actividad 1 el ciclo de vida de ella mando a llamar
+       los estados callback:\n\n
+        <b>onPause() de MainActivity</b>\n
+        <b>onCreate() de Actividad 2</b>\n
+        <b>onStart() de Actividad 2</b>\n
+        <b>onResume() de Actividad 2</b>\n
+        <b>onStop() de MainActivity</b>\n\n
+
+        Ahora trata de regresar a la actividad anterior:
+    </string>
+    <string name="instruccion_actividad2">Instrucción ilustrativa para regresar a la actividad anterior</string>
+    <string name="label_info_actividad2_1">
+        Antes de ir a la actividad anterior observaras que los estados callback por los que pasa la Actividad 2 son:\n\n
+
+        <b>onPause() de Actividad 2</b>\n
+        <b>onDestroy() de MainActivity</b>\n
+        <b>onCreate() de MainActivity</b>\n
+        <b>onStart() de MainActivity</b>\n
+        <b>onResume() MainActivity</b>\n
+        <b>onStop() de Actividad 2</b>\n
+        <b>onDestroy() de Actividad 2</b>\n\n
+
+        Ahora Presiona el botón  Finalizar Actividad 2 y observa lo que sucede
+    </string>
+    <string name="label_btn_finalizar_actividad2">Finalizar Actividad 2</string>
+
+    <!--SplashScreen.java - activity_splashscreen.xml-->
+    <string name="info_logo">Este es el logo de la aplicación Lyfecycle</string>
+
+</resources>
