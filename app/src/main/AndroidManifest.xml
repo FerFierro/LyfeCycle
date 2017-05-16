@@ -33,7 +33,6 @@
                 android:value=".Activitys.Actividad2" />
         </activity>
 
-
     </application>
 
 </manifest>
